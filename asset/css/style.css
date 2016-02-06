@@ -1,0 +1,23 @@
+.navbar-nav li .dropdown-menu {
+    right: 0px !important;
+    left: auto;
+}
+
+.navbar.navbar-default form {
+    top: 9px;
+}
+
+.navbar .container .navbar-brand, .navbar .container-fluid .navbar-brand {
+     margin-left: 0px !important;
+}
+
+@media (max-width: 767px){
+    .navbar-default .navbar-nav .open .dropdown-menu li a {
+        background-color: #e7e7e7;
+    }
+}
+
+.navbar.navbar-default .nav.navbar-nav {
+    margin-bottom: -5px;
+    padding-right: 5px;
+}
