@@ -10,6 +10,7 @@
 
 .header.navbar-default .dropdown-toggle {
         padding-left: 0px;
+        padding-top: 7px;
 }
 
 @media (max-width: 767px){
@@ -36,4 +37,12 @@
 
 .footer .nav-tabs.nav-justified li:hover a {
     background-color: #FFF !important;
+}
+
+/*******  List-Item ********/
+.list-item .panel-body {
+    padding-bottom: 0px !important;
+}
+.list-item .panel-footer{
+    padding: 0 15px 5px 15px!important;
 }
